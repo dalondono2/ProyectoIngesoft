@@ -64,39 +64,9 @@ class _TeacherState extends State<Teacher> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            MaterialButton(
-              onPressed: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (context) => StudientList(),
-                  ),
-                );
-              },
-              child: Text(
-                "List of Student",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                ),
-              ),
-              color: Colors.indigo[900],
-            ),
-            MaterialButton(
-              onPressed: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (context) => QuestionTeacher(),
-                  ),
-                );
-              },
-              child: Text(
-                "Banco de preguntas",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                ),
-              ),
-              color: Colors.indigo[900],
+            Text("Home Page"),
+            Container(
+              child: Image.asset("Home_image.PNG"),
             ),
           ],
         ),
