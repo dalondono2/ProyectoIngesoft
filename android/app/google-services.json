@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "146762593212",
+    "project_id": "app-web-fun",
+    "storage_bucket": "app-web-fun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146762593212:android:23cf975e8886f492f831b9",
+        "android_client_info": {
+          "package_name": "com.poliTest.test_web_fun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146762593212-cnm3nmk722t81ngjs82qf8l94hnb9oq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Ab8bbsH3z-Em5oipYb2AJp_eoo19dVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146762593212-cnm3nmk722t81ngjs82qf8l94hnb9oq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
